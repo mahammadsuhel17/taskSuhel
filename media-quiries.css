@@ -1,0 +1,151 @@
+@media screen and (max-width:991px) {
+    .nav-links {
+        position: absolute;
+        left:+100%;
+        top:100%;
+        background-color: #fff;
+        width:100%;
+        padding-block:20px;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-links.active{
+        left:0
+    }
+    .main-nav {
+overflow: initial;
+    }
+    .nav-links ul {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px
+    }
+
+    .expample-cards {
+        /* display:g */
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .expample-card {
+        height: 200px
+    }
+
+    .free-trail {
+        padding: 50px 0px
+    }
+
+    h3 {
+        font-size: 1.2rem
+    }
+
+    .cta-button a {
+        /* font-size: 15px   */
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header-main-container {
+        flex-direction: column-reverse
+    }
+
+    .header-left {
+        text-align: center
+    }
+
+    .features-area {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .expample-card:nth-child(2) {
+        background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/asset\ 37.jpeg')
+    }
+
+    .big-features-section {
+        gap: 30px;
+        flex-direction: column
+    }
+
+    .big-features-section-reverse {
+        flex-direction: column-reverse
+    }
+
+    .cta-section-container {
+        flex-direction: column-reverse;
+    }
+
+    .cta-left {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px
+    }
+
+    .product-list ul {
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width:478px) {
+    .logo img {
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 1.5rem
+    }
+
+    h2 {
+        font-size: 1.2rem
+    }
+
+    h3 {
+        font-size: 1rem
+    }
+
+    .header-left {
+        margin-top: 20px
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .features-area {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .primery-button {
+        width: 100%
+    }
+    .cta-button{
+        flex-direction: column;
+        gap:10px
+    }
+    .expample-cards {
+        /* display:g */
+        grid-template-columns: 1fr;
+    }
+    .banner-text{
+        font-size: 14px;
+    }
+    .pannel-list-main{
+        flex-direction: column;
+        gap:0px
+    }
+}
